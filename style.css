@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: dimgray; */
+  /* background: linear-gradient(
+    315deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  ); */
+  background: #403a3e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #be5869,
+    #403a3e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #be5869,
+    #403a3e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+}
+
+.outer {
+  width: 450px;
+  height: 70px;
+  /* background-color: aqua; */
+  padding-top: 15px;
+  margin: 0 auto;
+  /* margin-top: 200px; */
+  box-shadow: 1px 1px 10px grey;
+  text-align: center;
+  font-size: 2rem;
+  text-align: center;
+  color: darkslategrey;
+  border-radius: 10px;
+  font-weight: bold;
+  animation: date 3s  infinite ease-in-out;
+}
+
+@keyframes date {
+  0% {
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+  }
+  25% {
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  50% {
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(125, 111, 139, 1) 100%
+    );
+  }
+  75% {
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(47, 43, 51, 0.9360119047619048) 100%
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      109.6deg,
+      rgba(249, 249, 147, 1) 11.2%,
+      rgba(252, 84, 84, 1) 91.1%
+    );
+  }
+}
+
+.btn1 {
+  padding: 1px 15px;
+  box-shadow: 1px 1px 10px grey;
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: lightblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: grey;
+  font-size: 6rem;
+  font-weight: bold;
+  animation: date 3s infinite ease-in-out;
+  
+}
